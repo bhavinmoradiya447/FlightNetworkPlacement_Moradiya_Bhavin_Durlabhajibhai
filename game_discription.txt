@@ -1,0 +1,17 @@
+					             Game
+
+1.	I use circular linked list for implementing this game. List contain name field to store name of kid.
+2.	In main flag is use for allow to enter kid name only once in case 1.
+3.	In case 2 use random function of stdlib.h header file that generate random number form 0 to M-1 then pass this N to function Eliminate().
+4.	Case 3 use for show position of kids.
+5.	Function adddetail() simply create circular linked list.
+6.	Function show() assign position to every kid starting form first node of circular linked list.
+7.	Function Eliminate() use two node pointer prev and temp ,prev use for keep trak of predecessor of temp node and temp is use for traverse in list from 1 to N  to find kid to eliminate.
+In this function prev first set to last node of list and it use for eliminate first nade in list
+i.e.         position                name
+	1		bhavin	
+	2		ashish
+	3		bhargav
+
+Then prev fist set to bhargav and if N=1
+Than it will not going to while(i!=no) and eliminate first node and set N+1 node to first. 

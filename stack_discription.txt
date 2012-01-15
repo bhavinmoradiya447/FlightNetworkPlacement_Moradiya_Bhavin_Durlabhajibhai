@@ -1,0 +1,12 @@
+                                                                           Stack
+1.	 Define structure that contains tow member number and structure pointer of that structure node.
+2.	first represent starting node of linked list , newnode used for create new node,temp used for temporary node.
+3.	top used to handle correct sequence of push operation and it is top of stack.
+    In main function flag is used for assign  starting value to a  top variable
+    i.e. in case 1 of switch statement  if flag==0  and number is push as 5 6 7 8 9
+    Than it set top=5 first and then it check for correct sequence in next “else if”. 
+4.	In case 2 pop value from stack and put it into temporary array for printing pattern.
+5.	In function push() , create linked list and every time put new node to end of list.
+6.	In function pop(), every time it pop value from end of list. It also check  condition for empty list and return poped  value. If poped value is 9 than it set top to -1 because next push operation must be start with 0.
+
+
